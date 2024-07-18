@@ -175,7 +175,9 @@ window.addEventListener("scroll", function () {
       }
   });
 
-  document.querySelectorAll('.col-1').forEach((col, index) => {
+//program highlights
+
+document.querySelectorAll('.col-1').forEach((col, index) => {
     const img = col.querySelector('.pm-logo');
     let originalSrc = img.src;
     let hoverSrc;
