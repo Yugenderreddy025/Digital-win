@@ -174,3 +174,32 @@ window.addEventListener("scroll", function () {
           console.log("Form has errors. Please fill in all required fields.");
       }
   });
+
+  document.querySelectorAll('.col-1').forEach((col, index) => {
+    const img = col.querySelector('.pm-logo');
+    let originalSrc = img.src;
+    let hoverSrc;
+
+    switch(index) {
+        case 0:
+            hoverSrc = 'assets/images/livesessionswhite.png';
+            break;
+        case 1:
+            hoverSrc = 'assets/images/realprojectswhite.png';
+            break;
+        case 2:
+            hoverSrc = 'assets/images/doubtwhite.png';
+            break;
+        case 3:
+            hoverSrc = 'assets/images/internwhite.png';
+            break;
+    }
+
+    col.addEventListener('mouseenter', () => {
+        img.src = hoverSrc;
+    });
+
+    col.addEventListener('mouseleave', () => {
+        img.src = originalSrc;
+    });
+});

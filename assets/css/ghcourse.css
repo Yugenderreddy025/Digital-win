@@ -195,18 +195,18 @@ span {
 .col-1:hover .caption-1 {
     color: white; 
 }
-.col-1:nth-child(1):hover .pm-logo {
-    content: url('assets\images\livesessionswhite.png'); /* Change to different image on hover */
+/* .col-1:nth-child(1):hover .pm-logo {
+    content: url('assets/images/livesessionswhite.png'); 
 }
 .col-1:nth-child(2):hover .pm-logo {
-    content: url('images/real-projects-white.png'); /* Change to different image on hover */
+    content: url('images/real-projects-white.png'); 
 }
 .col-1:nth-child(3):hover .pm-logo {
-    content: url('images/doubt-white.png'); /* Change to different image on hover */
+    content: url('images/doubt-white.png'); 
 }
 .col-1:nth-child(4):hover .pm-logo {
-    content: url('images/intern-white.png'); /* Change to different image on hover */
-}
+    content: url('images/intern-white.png'); 
+} */
 .caption-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
