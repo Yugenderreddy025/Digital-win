@@ -211,18 +211,6 @@ span {
 .col-1:hover .caption-1 {
     color: white; 
 }
-/* .col-1:nth-child(1):hover .pm-logo {
-    content: url('assets/images/livesessionswhite.png'); 
-}
-.col-1:nth-child(2):hover .pm-logo {
-    content: url('images/real-projects-white.png'); 
-}
-.col-1:nth-child(3):hover .pm-logo {
-    content: url('images/doubt-white.png'); 
-}
-.col-1:nth-child(4):hover .pm-logo {
-    content: url('images/intern-white.png'); 
-} */
 .caption-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -643,6 +631,30 @@ ul {
 .contact img {
     width: 50px;          
     height: 50px;         
+}
+
+/*whastapp connect------------------------------------------------------------*/
+.whastappconnect{
+    float: right;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+}
+.whastappconnect .container-2{
+    z-index: 9999;
+    text-align: right;
+    padding-right: 0;
+    bottom: 0;
+}
+.container-2 img{
+    width: 80px;
 }
 /* Responsive styles */
 @media (max-width: 1029px) {
