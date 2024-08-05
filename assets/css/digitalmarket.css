@@ -41,6 +41,7 @@ nav {
     gap: 0.5rem;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 1rem;
 }
 /* .batchoffers{
     padding: 11px 120px;
@@ -408,6 +409,8 @@ nav {
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .card {
@@ -497,7 +500,7 @@ ul {
     justify-content: center;
     text-align: center;
     color: var(--hover-text-color);
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .mentor-info h3{
     font-family: "Poppins", sans-serif;
@@ -513,6 +516,17 @@ ul {
     margin-bottom: 0.5rem;
 }
 .founderlist img{
+    width:100px
+}
+.mentor-info .clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+   
+}
+.clients img{
     width:100px
 }
 .profile-header {
@@ -663,6 +677,9 @@ ul {
 .container-2 img{
     width: 80px;
 }
+
+
+  
 /*Media queries---------------------------------------------------------------*/
 
 /* Responsive styles */
@@ -873,14 +890,106 @@ ul {
         width: 20px;
         height: 20px;
     }
+    .cards-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px){
     .mentor-section {
         width: 90%;
     }
 
     .founderlist img {
         width: 80px;
+    }
+    .clients img{
+        width: 60px;
+    }
+   
+}
+@media (min-width: 1600px) {
+    /* Increase padding and margin for better spacing on larger screens */
+    body {
+        padding: 0 100px;
+    }
+
+    nav {
+        margin-left: 120px;
+        margin-right: 120px;
+        gap: 1rem;
+    }
+
+    .top-header,
+    .headline {
+        font-size: 48px; /* Increase font size for larger headings */
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+    .caption {
+        font-size: 18px; /* Increase font size for better readability */
+        padding-left: 25rem;
+        padding-right: 25rem;
+    }
+
+    .class-starts .month,
+    .class-starts .duration {
+        padding: 6px 20px; /* Increase padding */
+    }
+
+    .price-card {
+        margin-left: 30rem;
+        margin-right: 30rem;
+        padding: 30px 100px;
+    }
+
+    .mentor-section {
+        width: 1200px; /* Increase the width for the mentor section */
+        padding-top: 1rem;
+        margin-left: 17rem;
+    }
+
+    .section-8 {
+        max-width: 1100px; /* Increase width of the form section */
+        margin-top: 5rem;
+    }
+
+    .form h1 {
+        font-size: 28px; /* Increase font size for form heading */
+    }
+
+    .form input,
+    .form textarea {
+        font-size: 16px; /* Increase font size for form inputs */
+    }
+
+    .section-6 .template {
+        width: 600px;
+        height: 480px; /* Increase size of certificate template */
+    }
+
+    .program-highlights {
+        gap: 3rem; /* Increase gap between program highlights */
+    }
+
+    .mentor-info h3 {
+        font-size: 28px; /* Increase font size for mentor info */
+    }
+
+    .cards-container {
+        gap: 40px; /* Increase gap between cards */
+    }
+
+    .card {
+        width: 350px;
+        height: 350px; /* Increase size of each card */
+        padding: 30px;
+    }
+
+    .contact img {
+        width: 60px;
+        height: 60px; /* Increase size of contact icons */
     }
 }
 
@@ -897,9 +1006,16 @@ ul {
     .founderlist img {
         width: 70px;
     }
+    .clients img {
+        width: 70px;
+    }
 
     .profile-header img {
         width: 25px;
+    }
+    .cards-container{
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -919,8 +1035,14 @@ ul {
     .founderlist img {
         width: 60px;
     }
-
+    .clients img {
+        width: 60px;
+    }
     .profile-header img {
         width: 20px;
+    }
+    .cards-container{
+        margin-left: 0;
+        margin-right: 0;
     }
 }
