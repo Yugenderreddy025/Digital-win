@@ -532,7 +532,7 @@ ul {
 .profile-header {
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 6em;
     margin-bottom: 0.5rem;
 }
 .profile-header img {
